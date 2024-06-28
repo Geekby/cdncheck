@@ -1,20 +1,21 @@
-module github.com/projectdiscovery/cdncheck
+module cdncheck
 
-go 1.21
+go 1.22.3
 
 require (
-	github.com/PuerkitoBio/goquery v1.8.1
+	github.com/PuerkitoBio/goquery v1.9.2
 	github.com/gaissmai/bart v0.9.5
-	github.com/ipinfo/go/v2 v2.9.2
+	github.com/ipinfo/go/v2 v2.10.0
 	github.com/logrusorgru/aurora v2.0.3+incompatible
 	github.com/pkg/errors v0.9.1
-	github.com/projectdiscovery/goflags v0.1.56
-	github.com/projectdiscovery/gologger v1.1.12
+	github.com/projectdiscovery/cdncheck v1.1.0
+	github.com/projectdiscovery/goflags v0.1.57
+	github.com/projectdiscovery/gologger v1.1.13
 	github.com/projectdiscovery/mapcidr v1.1.34
-	github.com/projectdiscovery/retryabledns v1.0.64
-	github.com/projectdiscovery/utils v0.1.4
+	github.com/projectdiscovery/retryabledns v1.0.65
+	github.com/projectdiscovery/utils v0.1.6
 	github.com/stretchr/testify v1.9.0
-	github.com/weppos/publicsuffix-go v0.30.1
+	github.com/weppos/publicsuffix-go v0.40.0
 	gopkg.in/yaml.v3 v3.0.1
 )
 
@@ -24,7 +25,7 @@ require (
 	github.com/VividCortex/ewma v1.2.0 // indirect
 	github.com/alecthomas/chroma v0.10.0 // indirect
 	github.com/andybalholm/brotli v1.0.6 // indirect
-	github.com/andybalholm/cascadia v1.3.1 // indirect
+	github.com/andybalholm/cascadia v1.3.2 // indirect
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/aymerick/douceur v0.2.0 // indirect
@@ -84,14 +85,14 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	github.com/zcalusic/sysinfo v1.0.2 // indirect
 	go.uber.org/multierr v1.11.0 // indirect
-	golang.org/x/crypto v0.21.0 // indirect
+	golang.org/x/crypto v0.23.0 // indirect
 	golang.org/x/exp v0.0.0-20230420155640-133eef4313cb // indirect
 	golang.org/x/mod v0.12.0 // indirect
-	golang.org/x/net v0.23.0 // indirect
+	golang.org/x/net v0.25.0 // indirect
 	golang.org/x/oauth2 v0.11.0 // indirect
 	golang.org/x/sync v0.6.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/sys v0.20.0 // indirect
+	golang.org/x/text v0.15.0 // indirect
 	golang.org/x/tools v0.13.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/protobuf v1.33.0 // indirect
